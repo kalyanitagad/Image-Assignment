@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageprofile"
+        android:layout_width="360sp"
+        android:layout_height="200sp"
+        android:src="@drawable/andriodimg"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/button1"
+        android:text="Maharashtra"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:backgroundTint="@color/teal_200"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/button2"
+        android:text="Panjab"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/button3"
+        android:text="Assam"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Rajasthan"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:backgroundTint="@color/teal_200"
+
+        />
+
+
+</LinearLayout>
